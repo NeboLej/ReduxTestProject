@@ -8,17 +8,35 @@
 
 /* Begin PBXBuildFile section */
 		8EBB73592C39B7AE00A0A899 /* ReduxTestProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EBB73582C39B7AE00A0A899 /* ReduxTestProjectApp.swift */; };
-		8EBB735B2C39B7AE00A0A899 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EBB735A2C39B7AE00A0A899 /* ContentView.swift */; };
 		8EBB735D2C39B7AE00A0A899 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EBB735C2C39B7AE00A0A899 /* Assets.xcassets */; };
 		8EBB73602C39B7AE00A0A899 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EBB735F2C39B7AE00A0A899 /* Preview Assets.xcassets */; };
+		8EBB736F2C39CA0500A0A899 /* Workout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EBB736E2C39CA0500A0A899 /* Workout.swift */; };
+		8EBB73712C39CA2F00A0A899 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EBB73702C39CA2F00A0A899 /* AppState.swift */; };
+		8EBB73732C39CA6800A0A899 /* Action.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EBB73722C39CA6800A0A899 /* Action.swift */; };
+		8EBB73752C39CAA300A0A899 /* Reducer .swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EBB73742C39CAA300A0A899 /* Reducer .swift */; };
+		8EBB73792C39CB4800A0A899 /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EBB73782C39CB4800A0A899 /* Store.swift */; };
+		8EBB737B2C39CBBD00A0A899 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EBB737A2C39CBBD00A0A899 /* ContentView.swift */; };
+		8EBB737D2C39CC3600A0A899 /* AddWorkoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EBB737C2C39CC3600A0A899 /* AddWorkoutView.swift */; };
+		8EBB73842C39D63100A0A899 /* AddButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EBB73832C39D63100A0A899 /* AddButton.swift */; };
+		8EBB73862C39D64400A0A899 /* TrailingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EBB73852C39D64400A0A899 /* TrailingView.swift */; };
+		8EBB73892C39D7EB00A0A899 /* AddWorkoutViewStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EBB73882C39D7EB00A0A899 /* AddWorkoutViewStore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		8EBB73552C39B7AE00A0A899 /* ReduxTestProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReduxTestProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EBB73582C39B7AE00A0A899 /* ReduxTestProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReduxTestProjectApp.swift; sourceTree = "<group>"; };
-		8EBB735A2C39B7AE00A0A899 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8EBB735C2C39B7AE00A0A899 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8EBB735F2C39B7AE00A0A899 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8EBB736E2C39CA0500A0A899 /* Workout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Workout.swift; sourceTree = "<group>"; };
+		8EBB73702C39CA2F00A0A899 /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		8EBB73722C39CA6800A0A899 /* Action.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Action.swift; sourceTree = "<group>"; };
+		8EBB73742C39CAA300A0A899 /* Reducer .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Reducer .swift"; sourceTree = "<group>"; };
+		8EBB73782C39CB4800A0A899 /* Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
+		8EBB737A2C39CBBD00A0A899 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8EBB737C2C39CC3600A0A899 /* AddWorkoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddWorkoutView.swift; sourceTree = "<group>"; };
+		8EBB73832C39D63100A0A899 /* AddButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddButton.swift; sourceTree = "<group>"; };
+		8EBB73852C39D64400A0A899 /* TrailingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailingView.swift; sourceTree = "<group>"; };
+		8EBB73882C39D7EB00A0A899 /* AddWorkoutViewStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddWorkoutViewStore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +69,13 @@
 		8EBB73572C39B7AE00A0A899 /* ReduxTestProject */ = {
 			isa = PBXGroup;
 			children = (
+				8EBB73812C39D59D00A0A899 /* Models */,
+				8EBB73802C39D57D00A0A899 /* Views */,
 				8EBB73582C39B7AE00A0A899 /* ReduxTestProjectApp.swift */,
-				8EBB735A2C39B7AE00A0A899 /* ContentView.swift */,
+				8EBB73742C39CAA300A0A899 /* Reducer .swift */,
+				8EBB73722C39CA6800A0A899 /* Action.swift */,
+				8EBB73702C39CA2F00A0A899 /* AppState.swift */,
+				8EBB73782C39CB4800A0A899 /* Store.swift */,
 				8EBB735C2C39B7AE00A0A899 /* Assets.xcassets */,
 				8EBB735E2C39B7AE00A0A899 /* Preview Content */,
 			);
@@ -65,6 +88,50 @@
 				8EBB735F2C39B7AE00A0A899 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8EBB73802C39D57D00A0A899 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8EBB738A2C39DFA100A0A899 /* WorkoutList */,
+				8EBB73872C39D76B00A0A899 /* AddWorkoutScreen */,
+				8EBB73822C39D5E100A0A899 /* Components */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8EBB73812C39D59D00A0A899 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8EBB736E2C39CA0500A0A899 /* Workout.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8EBB73822C39D5E100A0A899 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				8EBB73832C39D63100A0A899 /* AddButton.swift */,
+				8EBB73852C39D64400A0A899 /* TrailingView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		8EBB73872C39D76B00A0A899 /* AddWorkoutScreen */ = {
+			isa = PBXGroup;
+			children = (
+				8EBB737C2C39CC3600A0A899 /* AddWorkoutView.swift */,
+				8EBB73882C39D7EB00A0A899 /* AddWorkoutViewStore.swift */,
+			);
+			path = AddWorkoutScreen;
+			sourceTree = "<group>";
+		};
+		8EBB738A2C39DFA100A0A899 /* WorkoutList */ = {
+			isa = PBXGroup;
+			children = (
+				8EBB737A2C39CBBD00A0A899 /* ContentView.swift */,
+			);
+			path = WorkoutList;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +204,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8EBB735B2C39B7AE00A0A899 /* ContentView.swift in Sources */,
+				8EBB73862C39D64400A0A899 /* TrailingView.swift in Sources */,
+				8EBB73892C39D7EB00A0A899 /* AddWorkoutViewStore.swift in Sources */,
+				8EBB73712C39CA2F00A0A899 /* AppState.swift in Sources */,
+				8EBB73752C39CAA300A0A899 /* Reducer .swift in Sources */,
+				8EBB737B2C39CBBD00A0A899 /* ContentView.swift in Sources */,
+				8EBB73842C39D63100A0A899 /* AddButton.swift in Sources */,
+				8EBB73732C39CA6800A0A899 /* Action.swift in Sources */,
+				8EBB73792C39CB4800A0A899 /* Store.swift in Sources */,
 				8EBB73592C39B7AE00A0A899 /* ReduxTestProjectApp.swift in Sources */,
+				8EBB737D2C39CC3600A0A899 /* AddWorkoutView.swift in Sources */,
+				8EBB736F2C39CA0500A0A899 /* Workout.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
